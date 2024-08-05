@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>梧桐公司 - 专业室内设计</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1, header nav {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        header h1 {
+            margin: 0;
+            padding: 0 20px;
+        }
+        header nav {
+            float: right;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        .footer {
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+        .social a {
+            color: #50b3a2;
+            text-decoration: none;
+            padding: 0 10px;
+            font-size: 24px;
+        }
+        .section-title {
+            font-size: 24px;
+            border-bottom: 2px solid #50b3a2;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .experience-list, .team-list, .projects-list {
+            list-style: none;
+            padding: 0;
+        }
+        .experience-list li, .team-list li, .projects-list li {
+            margin: 10px 0;
+        }
+        .team-list img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>梧桐公司</h1>
+            <nav>
+                <a href="#">首页</a>
+                <a href="#experience">工作经历</a>
+                <a href="#team">团队介绍</a>
+                <a href="#projects">项目展示</a>
+                <a href="#contact">联系方式</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="about" class="main">
+            <h2 class="section-title">关于我们</h2>
+            <p>梧桐公司是一家专业的室内设计公司，致力于为客户提供创新、实用且美观的设计解决方案。我们的团队由经验丰富的设计师和项目经理组成，专注于各种类型的室内设计项目，从住宅到商业空间，均能提供卓越的设计服务。</p>
+        </section>
+        <section id="experience" class="main">
+            <h2 class="section-title">工作经历</h2>
+            <ul class="experience-list">
+                <li>ABC 室内设计公司: 室内设计师 - 2018年 - 现在</li>
+                <li>XYZ 建筑事务所: 室内设计助理 - 2015年 - 2018年</li>
+                <li>LMN 家具公司: 设计实习生 - 2013年 - 2015年</li>
+            </ul>
+        </section>
+        <section id="team" class="main">
+            <h2 class="section-title">团队介绍</h2>
+            <ul class="team-list">
+                <li class="team-member">
+                    <img src="team-member1.jpg" alt="团队成员1">
+                    <div>
+                        <h3>Tom - 首席设计师</h3>
+                        <p>Tom是我们公司的首席设计师，拥有超过10年的设计经验，擅长于将客户的需求转化为现实中的设计作品。</p>
+                    </div>
+                </li>
+                <li class="team-member">
+                    <img src="team-member2.jpg" alt="团队成员2">
+                    <div>
+                        <h3>Jane - 项目经理</h3>
+                        <p>Jane负责公司的项目管理工作，确保每一个项目都能按时按质完成。</p>
+                    </div>
+                </li>
+                <!-- 你可以添加更多的团队成员 -->
+            </ul>
+        </section>
+        <section id="projects" class="main">
+            <h2 class="section-title">项目展示</h2>
+            <ul class="projects-list">
+                <li>现代住宅设计 - 2021年</li>
+                <li>商业办公空间设计 - 2020年</li>
+                <li>豪华酒店设计 - 2019年</li>
+                <!-- 你可以添加更多的项目 -->
+            </ul>
+        </section>
+        <section id="contact" class="main">
+            <h2 class="section-title">联系方式</h2>
+            <p>你可以通过以下方式联系我：</p>
+            <div class="social">
+                <a href="https://www.instagram.com/Tom" target="_blank">Instagram</a>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>梧桐公司 &copy; 2024</p>
+    </footer>
+</body>
+</html>
